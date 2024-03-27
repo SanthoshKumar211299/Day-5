@@ -142,7 +142,7 @@ person1.forEach(function(obj) {
    
   }
   }
-  //for of (printing the person1 name from 0 index using with 2 json data)
+//printing the person1 name starting from 0 index using with for of loop
 let text = "";
 for (let x of person1[key,0].name) {
  text += x; 
