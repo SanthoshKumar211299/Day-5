@@ -142,7 +142,7 @@ person1.forEach(function(obj) {
    
   }
   }
-  //for of (printing the name from 0 index using with 2 json data)
+  //for of (printing the person1 name from 0 index using with 2 json data)
 let text = "";
 for (let x of person1[key,0].name) {
  text += x; 
@@ -158,10 +158,7 @@ for (let x of person1[key,0].name) {
    - It serves as the global namespace for all JavaScript code running in that window.
    - It contains properties and methods that control the browser window itself, like resizing, navigating, opening new windows, etc.
    - It's accessible globally, so you don't need to prefix its use with `window.`. For example, `window.alert()` and `alert()` are equivalent.
-   So the following statements all return the same window object:
-    window.window
-    window.window.window
-    window.window.window.window
+  
 2. **Document Object**:
    - The `document` object represents the web page loaded in the current window or frame.
    - It's a property of the `window` object and provides methods and properties to access the content of the document.
@@ -173,14 +170,7 @@ for (let x of person1[key,0].name) {
    - It provides information about the user's screen such as width, height, color depth, etc.
    - This object can be useful for creating responsive designs or for determining the available screen space for displaying content.
    - Properties of the `screen` object include `screen.width`, `screen.height`, `screen.availWidth`, `screen.availHeight`, etc.
-     Properties:
-     -----------
-     screen.width
-     screen.height
-     screen.availWidth
-     screen.availHeight
-     screen.colorDepth
-     screen.pixelDepth
+     
 Main Usage:
 - `window` represents the browser window and is the global object.
 - `document` represents the HTML document loaded in the window and allows manipulation of its content.
